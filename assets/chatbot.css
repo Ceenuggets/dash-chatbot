@@ -1,0 +1,80 @@
+body{
+    background-color: #2B2B2B;
+}
+
+.parent_div{
+    border-radius: 5px;
+    margin-bottom: 150px;
+}
+
+.input_result_div{
+    margin: 5px;
+    
+}
+
+.title{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#user_input{
+    width: 100%;
+    min-height: 80px;
+    line-height: 1.2;
+    white-space: normal;
+    overflow: hidden;
+    text-align: left;
+    vertical-align: top;
+    display: flex;
+    align-items: flex-start;
+    padding: 3px;
+
+}
+
+.input_div{
+    margin-top: 2px;
+    overflow: auto;
+    border: 1px orange solid;
+    border-radius: 5px;
+ }
+
+#btn_answer {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+}
+.result{
+    color: white;
+ }
+
+.user_div{
+    background-color: #2B2B2B;
+    padding-left: 5px;
+    font-weight: bold;
+    color: #00FF00;
+    margin-top: 10px;
+}
+
+.feedback_div{
+    padding-left: 5px;
+    border: 1px gold solid;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.input_div{
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
